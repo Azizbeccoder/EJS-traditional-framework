@@ -74,3 +74,4 @@ function confirmDelete(itemId) {
 console.log('%c🚀 EJS Framework v1.0', 'font-size: 16px; color: #3498db; font-weight: bold;');
 console.log('%c Built with Express.js & EJS', 'font-size: 12px; color: #7f8c8d;');
 // Updated 2025-09-07 15:45:00
+// Updated 2025-09-17 16:15:00
