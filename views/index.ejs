@@ -1,0 +1,36 @@
+<%- include('header') %>
+
+<div class="hero">
+    <h1>Welcome to EJS Framework</h1>
+    <p>A modern web application built with Express.js and EJS templating</p>
+    <a href="/shop" class="btn btn-primary">Start Shopping</a>
+</div>
+
+<div class="stats">
+    <div class="stat-card">
+        <h3><%= itemCount %></h3>
+        <p>Total Items</p>
+    </div>
+    <div class="stat-card">
+        <h3>Express</h3>
+        <p>Web Framework</p>
+    </div>
+    <div class="stat-card">
+        <h3>EJS</h3>
+        <p>Template Engine</p>
+    </div>
+</div>
+
+<div class="features">
+    <h2>Features</h2>
+    <ul class="feature-list">
+        <li>✅ Dynamic page rendering with EJS</li>
+        <li>✅ Add and manage items</li>
+        <li>✅ Responsive design</li>
+        <li>✅ RESTful API endpoints</li>
+        <li>✅ Clean and modern UI</li>
+        <li>✅ Easy to extend</li>
+    </ul>
+</div>
+
+<%- include('footer') %>

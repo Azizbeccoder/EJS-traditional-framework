@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">EJS Framework</div>
+            <ul class="nav-links">
+                <li><a href="/" class="<%= title.includes('Home') ? 'active' : '' %>">Home</a></li>
+                <li><a href="/shop" class="<%= title.includes('Shopping') ? 'active' : '' %>">Shop</a></li>
+                <li><a href="/about" class="<%= title.includes('About') ? 'active' : '' %>">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
